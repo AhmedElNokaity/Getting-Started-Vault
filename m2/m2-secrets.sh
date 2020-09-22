@@ -7,8 +7,8 @@ Expand-Archive .\vault_$($vaultVersion)_windows_amd64.zip
 cd .\vault_$($vaultVersion)_windows_amd64
 #Copy vault executable to a location include in your path variable
 
-#For Linux
-VAULT_VERSION="1.0.1"
+#For Linux latest version @22/9/2020 use 1.5.3 https://www.vaultproject.io/downloads
+VAULT_VERSION="1.5.3"   
 wget https://releases.hashicorp.com/vault/${VAULT_VERSION}/vault_${VAULT_VERSION}_linux_amd64.zip
 
 #Install unzip if necessary
